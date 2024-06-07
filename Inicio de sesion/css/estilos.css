@@ -4,7 +4,7 @@
 
 /* Inicio de CSS */
 
-body {
+.cuerpo-contraseña {
     background-image: url(../imagenes/fondo-login.png);
     background-size: cover;
     display: grid;
@@ -28,7 +28,7 @@ body {
     --color-rojo:#f00;
 }
 
-form #img {
+.form #img {
     margin-top: 40px;
     width: 25%;
     margin-bottom: 20px;
@@ -50,48 +50,40 @@ form #img {
     margin-bottom: 40px;
 }
 
-
-
-
-form .iconos {
+.form .iconos {
     width: 100%;
     margin-left: 255px;
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-
 .iconos a {
     padding: 5px;
 }
 
-
-h1 {
+.titulo-contraseña {
     margin-top: 0;
     margin-bottom: 60px;
     font-size: 25px;
 }
 
-
-h4 {
+.subtitulo3 {
     margin: 0 40px 40px 40px;
     text-align: center ;
     color: var(--color-subtitulos);
 }
 
-h5 {
+.subtitulo2 {
     color: var(--color-negro);
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-
 #Recuperacion::placeholder {
     text-align: center;
 }
 
-
-form {
+.form {
     grid-column: 2;
     align-items: center;
     margin: 20px 100px;
@@ -103,7 +95,6 @@ form {
     flex-direction: column;
 }
 
-
 .pasword {
     text-decoration: none;
     font-size: 13px;
@@ -112,8 +103,7 @@ form {
     margin-bottom: 10px;
 }
 
-
-form input {
+.form input {
     padding: 10px;
     margin-bottom:25px;
     border: 1px solid var(--color-negro);
@@ -121,13 +111,12 @@ form input {
     font-size: 16px;
 }
 
-
-form a {
+.form a {
     color: var(--color-enlaces);
     margin-bottom: 10px;
 }   
 
-form button {
+.form button {
     margin-top: 20px;
     padding: 10px 120px;
     background-color: var(--color-blanco);
@@ -138,7 +127,7 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
+.form button:hover {
     background-color: var(--color-HoverBoton);
 }
 
@@ -146,7 +135,7 @@ form button:hover {
     margin-bottom: 250px;
 }
 
-a:hover {
+.cuerpo-contraseña a:hover {
     color:var(--color-hoverEnlaces);
 }
 
