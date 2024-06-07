@@ -1,0 +1,145 @@
+
+@import 'reset.css';
+
+
+/* Inicio de CSS */
+
+.cuerpo-contraseña {
+    background-image: url(../imagenes/fondo-login.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(3,600px);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Colores */
+:root {
+    --color-form:#D9D9D9;
+    --color-enlaces:#5e5858;
+    --color-hoverEnlaces:#006300;
+    --color-blanco:#fff;
+    --color-HoverBoton:#89dda2;
+    --color-negro:#000;
+    --color-subtitulos:#5e5858;
+    --color-rojo:#f00;
+}
+
+.form #img {
+    margin-top: 40px;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.pass {
+    width: 5%;
+    cursor: pointer;
+    margin-top: -58px;
+    margin-left: 258px;
+    margin-bottom: 40px;
+}
+
+.pass-crear {
+    width: 5%;
+    cursor: pointer;
+    margin-top: -54px;
+    margin-left: 258px;
+    margin-bottom: 40px;
+}
+
+.form .iconos {
+    width: 100%;
+    margin-left: 255px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.iconos a {
+    padding: 5px;
+}
+
+.titulo-contraseña {
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+
+.subtitulo3 {
+    margin: 0 40px 40px 40px;
+    text-align: center ;
+    color: var(--color-subtitulos);
+}
+
+.subtitulo2 {
+    color: var(--color-negro);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#Recuperacion::placeholder {
+    text-align: center;
+}
+
+.form {
+    grid-column: 2;
+    align-items: center;
+    margin: 20px 100px;
+    padding: 10px;
+    background-color: var(--color-form);
+    border-radius: 30px;
+    border: 2px var(--color-negro) solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.pasword {
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: -18px;
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+
+.form input {
+    padding: 10px;
+    margin-bottom:25px;
+    border: 1px solid var(--color-negro);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form a {
+    color: var(--color-enlaces);
+    margin-bottom: 10px;
+}   
+
+.form button {
+    margin-top: 20px;
+    padding: 10px 120px;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+    border: 2px var(--color-negro) solid;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: var(--color-HoverBoton);
+}
+
+#correoRecuperacion, #contraseña2, #Recuperacion {
+    margin-bottom: 250px;
+}
+
+.cuerpo-contraseña a:hover {
+    color:var(--color-hoverEnlaces);
+}
+
+
+
+
+
